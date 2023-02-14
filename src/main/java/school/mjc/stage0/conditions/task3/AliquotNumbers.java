@@ -7,7 +7,7 @@ public class AliquotNumbers {
         if(first % second == 0){
             logger.info("Aliquot");
         } else {
-            System.out.println("Not aliquot");
+            logger.info("Not aliquot");
         }
     }
 }
